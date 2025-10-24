@@ -7,7 +7,7 @@ def create_sidebar():
     
     col1, col2 = st.sidebar.columns(2)
     with col1:
-        N = st.slider("Número de osciladores", 10, 200, 50)
+        N = st.slider("Número de osciladores", 10, 2000, 50)
         K = st.slider("Fuerza acoplamiento (K)", 0.1, 5.0, 2.0, 0.1)
         dt = st.slider("Paso temporal (dt)", 0.01, 0.1, 0.05, 0.01)
     with col2:
