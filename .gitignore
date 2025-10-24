@@ -1,5 +1,5 @@
 # ignorar capreta de entonro virtual
-sincronizacion_env/
+sincronizacion_venv/
 
 # igonara cache de python
 src/__pycache__/
